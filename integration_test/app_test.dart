@@ -1,12 +1,11 @@
 import 'package:connectivity/connectivity.dart';
-import 'package:f_local_database_sqlite/core/network_info.dart';
-import 'package:f_local_database_sqlite/data/models/userdb.dart';
-import 'package:f_local_database_sqlite/domain/repositories/user_repository.dart';
-import 'package:f_local_database_sqlite/domain/use_case/users.dart';
-import 'package:f_local_database_sqlite/ui/controllers/home_controller.dart';
-
-import 'package:f_local_database_sqlite/ui/home.dart';
-import 'package:f_local_database_sqlite/ui/widgets/list_item.dart';
+import 'package:f_local_database_hive_template/core/network_info.dart';
+import 'package:f_local_database_hive_template/data/models/userdb.dart';
+import 'package:f_local_database_hive_template/domain/repositories/user_repository.dart';
+import 'package:f_local_database_hive_template/domain/use_case/users.dart';
+import 'package:f_local_database_hive_template/ui/controllers/home_controller.dart';
+import 'package:f_local_database_hive_template/ui/home.dart';
+import 'package:f_local_database_hive_template/ui/widgets/list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
